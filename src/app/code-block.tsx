@@ -11,8 +11,8 @@ interface CodeBlockProps {
 
 export function CodeBlock({ code, language }: CodeBlockProps) {
 	return (
-		<div className='py-8 px-14 flex justify-center mb-10'>
-			<div className='flex flex-col flex-1 gap-10'>
+		<div className='py-4 px-14 flex justify-center'>
+			<div className='flex flex-col flex-1 gap-5'>
 				<SyntaxHighlighter
 					style={atomDark as any}
 					language={language}
